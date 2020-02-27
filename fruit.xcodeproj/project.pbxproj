@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA41464324086015001C3201 /* FruitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41464224086015001C3201 /* FruitManager.swift */; };
+		FA41464524086986001C3201 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41464424086986001C3201 /* FruitModel.swift */; };
 		FA6A084924082E9D00EBF2AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A084824082E9D00EBF2AB /* AppDelegate.swift */; };
 		FA6A084B24082E9D00EBF2AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A084A24082E9D00EBF2AB /* SceneDelegate.swift */; };
 		FA6A084D24082E9D00EBF2AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A084C24082E9D00EBF2AB /* ViewController.swift */; };
 		FA6A085024082E9D00EBF2AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6A084E24082E9D00EBF2AB /* Main.storyboard */; };
 		FA6A085224082E9E00EBF2AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6A085124082E9E00EBF2AB /* Assets.xcassets */; };
 		FA6A085524082E9E00EBF2AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6A085324082E9E00EBF2AB /* LaunchScreen.storyboard */; };
+		FA6A08612408353E00EBF2AB /* FruitEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A08602408353E00EBF2AB /* FruitEndPoint.swift */; };
+		FA6A086424083BEA00EBF2AB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A086324083BEA00EBF2AB /* NetworkManager.swift */; };
+		FA6A086724083C0C00EBF2AB /* EndPiontType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A086624083C0C00EBF2AB /* EndPiontType.swift */; };
+		FA6A086924083C2F00EBF2AB /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A086824083C2F00EBF2AB /* HTTPMethod.swift */; };
+		FA6A086B24083C4100EBF2AB /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A086A24083C4100EBF2AB /* HTTPTask.swift */; };
+		FA6A086D24083C5E00EBF2AB /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A086C24083C5E00EBF2AB /* NetworkRouter.swift */; };
+		FA6A086F24083CFF00EBF2AB /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A086E24083CFF00EBF2AB /* Router.swift */; };
+		FA6A087224083D2100EBF2AB /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A087124083D2100EBF2AB /* ParameterEncoder.swift */; };
+		FA6A087424083DEC00EBF2AB /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A087324083DEC00EBF2AB /* URLParameterEncoder.swift */; };
+		FA6A087624083E0100EBF2AB /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A087524083E0100EBF2AB /* JSONParameterEncoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA41464224086015001C3201 /* FruitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitManager.swift; sourceTree = "<group>"; };
+		FA41464424086986001C3201 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		FA6A084524082E9D00EBF2AB /* fruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fruit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6A084824082E9D00EBF2AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA6A084A24082E9D00EBF2AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,16 @@
 		FA6A085124082E9E00EBF2AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA6A085424082E9E00EBF2AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA6A085624082E9E00EBF2AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6A08602408353E00EBF2AB /* FruitEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitEndPoint.swift; sourceTree = "<group>"; };
+		FA6A086324083BEA00EBF2AB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FA6A086624083C0C00EBF2AB /* EndPiontType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPiontType.swift; sourceTree = "<group>"; };
+		FA6A086824083C2F00EBF2AB /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		FA6A086A24083C4100EBF2AB /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		FA6A086C24083C5E00EBF2AB /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		FA6A086E24083CFF00EBF2AB /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		FA6A087124083D2100EBF2AB /* ParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoder.swift; sourceTree = "<group>"; };
+		FA6A087324083DEC00EBF2AB /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		FA6A087524083E0100EBF2AB /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA41463E240850E2001C3201 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				FA41464424086986001C3201 /* FruitModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		FA41464124085FF6001C3201 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FA41464224086015001C3201 /* FruitManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		FA6A083C24082E9D00EBF2AB = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +96,8 @@
 		FA6A084724082E9D00EBF2AB /* fruit */ = {
 			isa = PBXGroup;
 			children = (
+				FA6A085E24082FA600EBF2AB /* Modules */,
+				FA6A085D24082F8C00EBF2AB /* Helpers */,
 				FA6A084824082E9D00EBF2AB /* AppDelegate.swift */,
 				FA6A084A24082E9D00EBF2AB /* SceneDelegate.swift */,
 				FA6A084C24082E9D00EBF2AB /* ViewController.swift */,
@@ -65,6 +107,72 @@
 				FA6A085624082E9E00EBF2AB /* Info.plist */,
 			);
 			path = fruit;
+			sourceTree = "<group>";
+		};
+		FA6A085C24082F2500EBF2AB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FA41463E240850E2001C3201 /* models */,
+				FA6A086224083BD400EBF2AB /* Manager */,
+				FA6A085F2408352D00EBF2AB /* EndPoint */,
+				FA6A086524083BF500EBF2AB /* Service */,
+				FA6A087024083D1400EBF2AB /* Encoding */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FA6A085D24082F8C00EBF2AB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FA41464124085FF6001C3201 /* Managers */,
+				FA6A085C24082F2500EBF2AB /* Network */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FA6A085E24082FA600EBF2AB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FA6A085F2408352D00EBF2AB /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				FA6A08602408353E00EBF2AB /* FruitEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		FA6A086224083BD400EBF2AB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FA6A086324083BEA00EBF2AB /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FA6A086524083BF500EBF2AB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FA6A086624083C0C00EBF2AB /* EndPiontType.swift */,
+				FA6A086824083C2F00EBF2AB /* HTTPMethod.swift */,
+				FA6A086A24083C4100EBF2AB /* HTTPTask.swift */,
+				FA6A086C24083C5E00EBF2AB /* NetworkRouter.swift */,
+				FA6A086E24083CFF00EBF2AB /* Router.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FA6A087024083D1400EBF2AB /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				FA6A087124083D2100EBF2AB /* ParameterEncoder.swift */,
+				FA6A087324083DEC00EBF2AB /* URLParameterEncoder.swift */,
+				FA6A087524083E0100EBF2AB /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +246,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6A086724083C0C00EBF2AB /* EndPiontType.swift in Sources */,
 				FA6A084D24082E9D00EBF2AB /* ViewController.swift in Sources */,
+				FA6A086F24083CFF00EBF2AB /* Router.swift in Sources */,
+				FA6A086924083C2F00EBF2AB /* HTTPMethod.swift in Sources */,
+				FA6A087624083E0100EBF2AB /* JSONParameterEncoder.swift in Sources */,
 				FA6A084924082E9D00EBF2AB /* AppDelegate.swift in Sources */,
+				FA41464524086986001C3201 /* FruitModel.swift in Sources */,
+				FA6A086B24083C4100EBF2AB /* HTTPTask.swift in Sources */,
+				FA6A087224083D2100EBF2AB /* ParameterEncoder.swift in Sources */,
+				FA6A086424083BEA00EBF2AB /* NetworkManager.swift in Sources */,
+				FA6A087424083DEC00EBF2AB /* URLParameterEncoder.swift in Sources */,
+				FA6A08612408353E00EBF2AB /* FruitEndPoint.swift in Sources */,
 				FA6A084B24082E9D00EBF2AB /* SceneDelegate.swift in Sources */,
+				FA41464324086015001C3201 /* FruitManager.swift in Sources */,
+				FA6A086D24083C5E00EBF2AB /* NetworkRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
