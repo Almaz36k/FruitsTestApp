@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="fruit" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="efS-cM-sKE" id="KiD-cy-zkb"/>
+                <outlet property="fruitTable" destination="pBA-FL-wrA" id="VXg-g7-3k3"/>
+                <outlet property="view" destination="iN0-l3-epB" id="H1g-qo-0oJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Фруктовый сад" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C7G-8P-exd">
+                    <rect key="frame" x="29" y="110" width="147" height="25.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="efS-cM-sKE">
+                    <rect key="frame" x="0.0" y="150" width="414" height="746"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Мои фрукты" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMI-OS-vwG">
+                            <rect key="frame" x="29" y="30" width="117.5" height="25.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pBA-FL-wrA" userLabel="Fruit Table">
+                            <rect key="frame" x="0.0" y="99.5" width="414" height="558.5"/>
+                            <color key="backgroundColor" red="0.40784313729999999" green="0.58823529409999997" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.40784313725490196" green="0.58823529411764708" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="gMI-OS-vwG" firstAttribute="leading" secondItem="efS-cM-sKE" secondAttribute="leading" constant="29" id="CmX-St-tGa"/>
+                        <constraint firstItem="gMI-OS-vwG" firstAttribute="top" secondItem="efS-cM-sKE" secondAttribute="top" constant="30" id="Ddc-Nl-YBD"/>
+                        <constraint firstAttribute="bottom" secondItem="pBA-FL-wrA" secondAttribute="bottom" constant="88" id="GvT-h2-jI3"/>
+                        <constraint firstItem="pBA-FL-wrA" firstAttribute="top" secondItem="gMI-OS-vwG" secondAttribute="bottom" constant="44" id="My8-UN-rLP"/>
+                        <constraint firstItem="pBA-FL-wrA" firstAttribute="leading" secondItem="efS-cM-sKE" secondAttribute="leading" id="g1M-20-vd2"/>
+                        <constraint firstAttribute="trailing" secondItem="pBA-FL-wrA" secondAttribute="trailing" id="taG-nd-acQ"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="30"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="efS-cM-sKE" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="4BY-2x-l29"/>
+                <constraint firstItem="efS-cM-sKE" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="4Bv-Q8-cXs"/>
+                <constraint firstItem="efS-cM-sKE" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="106" id="4RR-gh-uIb"/>
+                <constraint firstItem="efS-cM-sKE" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="59g-ad-AmL"/>
+                <constraint firstItem="C7G-8P-exd" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="66" id="Ify-Ga-6MP"/>
+                <constraint firstAttribute="bottom" secondItem="efS-cM-sKE" secondAttribute="bottom" id="MqE-bI-eSH"/>
+                <constraint firstItem="C7G-8P-exd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="29" id="Sqa-Zj-PCw"/>
+                <constraint firstItem="efS-cM-sKE" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="xeJ-Tq-eHo"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-84.057971014492765" y="5.3571428571428568"/>
+        </view>
+    </objects>
+</document>

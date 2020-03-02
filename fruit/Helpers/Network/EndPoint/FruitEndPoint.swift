@@ -32,7 +32,7 @@ extension FruitApi: EndPointType {
     var headers: HTTPHeaders? {
         switch self {
             case .allFruits: return nil
-            case .addFruit, .removeFruit, .myFruits: return ["uid": "1"]
+            case .addFruit, .removeFruit, .myFruits: return ["uid": "26"]
         }
     }
     

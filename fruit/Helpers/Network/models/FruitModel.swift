@@ -9,13 +9,13 @@ struct Fruit: Decodable {
 struct MyFruit: Decodable{
     let id: Int
     let text: String
-    let image: Int
+    let image: String
     let pivot : Pivot
 }
 
 struct Pivot: Decodable {
-    let userId: Int
-    let fruitId: Int
+    let userId: String
+    let fruitId: String
     
     enum CodingKeys: String, CodingKey {
         case userId = "user_id"
